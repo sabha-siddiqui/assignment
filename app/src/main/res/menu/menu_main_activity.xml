@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- SETTINGS -->
+    <item
+        android:enabled="true"
+        android:id="@+id/action_settings"
+        android:title=""
+        android:orderInCategory="0"
+        app:showAsAction="ifRoom"
+        />
+
+    <!-- NEW NOTE -->
+    <item
+        android:enabled="true"
+        android:title="create"
+        android:id="@+id/action_create"
+        android:icon="@drawable/ic_create_black_24dp"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+
+        />
+
+
+</menu>
